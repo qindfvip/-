@@ -1,2 +1,19 @@
-# -
-index
+# 当firefox无法打开 https://addons.mozilla.org 时（因为墙），在系统配置文件hosts添加以下配置即可访问
+117.18.232.191 addons.cdn.mozilla.net
+117.18.232.191 mozorg.cdn.mozilla.net
+117.18.232.191 developer.cdn.mozilla.net
+117.18.232.191 support.cdn.mozilla.net
+117.18.232.191 marketplace.cdn.mozilla.net
+117.18.237.191 getpersonas.cdn.mozilla.net
+117.18.237.191 code.cdn.mozilla.net
+117.18.232.191 air.cdn.mozilla.net
+117.18.232.191 videos.cdn.mozilla.net
+117.18.232.191 glow.cdn.mozilla.net
+117.18.232.191 download-installer.cdn.mozilla.net
+117.18.232.191 download.cdn.mozilla.net
+117.18.232.191 fhr.cdn.mozilla.net
+117.18.232.191 activations.cdn.mozilla.net
+117.18.232.191 cdn.mozilla.net
+117.18.232.191 snippets.cdn.mozilla.net
+117.18.232.191 telemetry-experiment.cdn.mozilla.net
+117.18.237.29 ocsp.digicert.com
