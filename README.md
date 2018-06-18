@@ -1,4 +1,4 @@
-# 当firefox无法打开 https://addons.mozilla.org 时（因为墙），在系统配置文件hosts添加以下配置即可访问
+# 当firefox无法打开 https://addons.mozilla.org 时（因为墙），在系统配置文件hosts(ubuntu:/etc/hosts)添加以下配置即可访问
 117.18.232.191 addons.cdn.mozilla.net<br/>
 117.18.232.191 mozorg.cdn.mozilla.net<br/>
 117.18.232.191 developer.cdn.mozilla.net<br/>
@@ -17,3 +17,7 @@
 117.18.232.191 snippets.cdn.mozilla.net<br/>
 117.18.232.191 telemetry-experiment.cdn.mozilla.net<br/>
 117.18.237.29 ocsp.digicert.com
+<br/>
+
+修改完后让配置文件生效（因为我是在ubuntu下），其他系统自行google<br/>
+sudo /etc/init.d/networking restart
